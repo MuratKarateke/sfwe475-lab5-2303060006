@@ -33,3 +33,5 @@
   (c) About page: **Ahead of time / Static** (Static content, rarely changes, good for SEO).
 - `rel="sponsored"` tells search engines the link is paid/sponsored. `rel="ugc"` tells them the link is User Generated Content.
 - For a public page, I would choose SSR (like `/tasks`) instead of CSR (`/tasks-csr`) because SSR delivers the populated HTML directly, improving SEO and reducing initial load time, whereas CSR forces the browser to download JS and make API calls before displaying content.
+
+
